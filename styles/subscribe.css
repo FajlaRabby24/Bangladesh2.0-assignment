@@ -1,0 +1,57 @@
+.subscribe {
+    padding: 80px 100px;
+    border-radius: 24px;
+}
+
+.subscribe>.title {
+    text-align: center;
+}
+
+.subscribe>.description {
+    margin: 16px auto 24px auto;
+    text-align: center;
+    width: 622px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group input {
+    padding: 20px 40px;
+    border: none;
+    line-height: 22px;
+}
+
+.input-group input[type='text'] {
+    border-radius: 8px 0 0 8px;
+    color: black;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    width: 550px;
+    text-align: left;
+}
+
+.input-group input[type='text']::placeholder {
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.input-group input[type='submit'] {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #006A50;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+}
+
+.input-group input[type='submit']:hover{
+    background-color: #006a50c2;
+}
