@@ -1,0 +1,19 @@
+.lorem{
+    background-color: #fff;
+    padding: 24px 48px;
+    border-radius: 24px;
+}
+
+.lorem-content{
+   background-image: url('../assets/quote-bg.png');
+   background-repeat: no-repeat;
+   padding: 25px 0;
+}
+
+.lorem .lorem-content .description{
+    margin: 0;
+}
+
+.lorem .lorem-content h3{
+    margin: 20px 0 4px 0;
+}
