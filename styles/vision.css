@@ -39,16 +39,30 @@
     border: none;
     cursor: pointer;
     margin-top: 24px;
+    transition: .1s ease-in;
 }
 
 .btn-1 {
     background-color: #5490F5;
 }
 
+.btn-1:hover {
+    background-color: #548ff5c0;
+}
+
 .btn-2{
     background-color: #09A15C;
 }
 
+.btn-2:hover{
+    background-color: #09a15dbc;
+}
+
+
 .btn-3 {
     background-color: #FFC239;
+}
+
+.btn-3:hover {
+    background-color: #ffc439bb;
 }
