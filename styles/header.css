@@ -1,3 +1,30 @@
+nav {
+    display: flex;
+    width: 1390px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.logo {
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+nav button {
+    padding: 15px 30px 15px 30px;
+    color: #006a50;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border: 1px solid #006a50;
+cursor: pointer;
+    border-radius: 8px;
+}
+
 .banner {
     display: flex;
     align-items: center;
