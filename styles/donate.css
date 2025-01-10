@@ -1,0 +1,62 @@
+.donate>.title {
+    text-align: center;
+}
+
+.donate>.description {
+    text-align: center;
+}
+
+.donate-card-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-evenly;
+}
+
+.donate-card {
+    box-sizing: border-box;
+    border: 1px solid #0e0e0e26;
+    border-radius: 16px;
+    padding: 40px;
+    background: #ffffff;
+    cursor: pointer;
+    transition: .1s ease-in;
+}
+
+.donate-card:nth-child(2) {
+    background-color: #C6E4D6;
+}
+
+.donate-card:hover {
+    background-color: #C6E4D6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+form input{
+    margin: 32px 0;
+    padding: 20px 40px;
+    box-sizing: border-box;
+   border: none;
+   border-bottom: 1px solid #dcdbdb;
+    background: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+form input::placeholder {
+    text-align: center;
+    color: #0e0e0e4d;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.btn-container {
+    text-align: center;
+    display: inline-block;
+}
