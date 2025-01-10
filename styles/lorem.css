@@ -1,10 +1,13 @@
 .lorem{
     background-color: #fff;
-    padding: 24px 48px;
     border-radius: 24px;
 }
 
 .lorem-content{
+    padding: 18px  24px;
+}
+
+.text{
    background-image: url('../assets/quote-bg.png');
    background-repeat: no-repeat;
    padding: 25px 0;
