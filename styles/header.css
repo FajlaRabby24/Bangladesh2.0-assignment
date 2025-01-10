@@ -1,0 +1,23 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    padding: 80px 100px;
+    height: 600px;
+}
+
+.banner-subtitle {
+    color: #0e0e0e80;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.banner-title {
+    color: #0e0e0e;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    margin: 16px 0 24px 0;
+}
