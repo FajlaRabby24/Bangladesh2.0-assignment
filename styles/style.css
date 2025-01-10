@@ -11,10 +11,17 @@ body {
     font-style: normal;
 }
 
-.middle {
+.primary-middle {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.secondary-middle {
+    max-width: 1400px;
+    margin: 130px auto;
+}
+
+
 
 .primary-bg {
     background-color: #C6E4D6;
@@ -51,4 +58,5 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    margin: 24px 0 32px 0;
 }

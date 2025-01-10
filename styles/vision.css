@@ -1,0 +1,54 @@
+.vision-card-container {
+    display: flex;
+    gap: 24px;
+}
+
+.vision-card {
+    max-width: 410px;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.vision-card:nth-child(1) {
+    background-color: #5490F533;
+}
+
+.vision-card:nth-child(2) {
+    background-color: #C6E4D6;
+}
+
+.vision-card:nth-child(3) {
+    background-color: #F7EBCF;
+}
+
+.vision-card-title {
+    color: #0e0e0ecc;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 25px 0 12px 0;
+}
+
+.vision-card-btn {
+    padding: 11px 20px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    border: none;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+.btn-1 {
+    background-color: #5490F5;
+}
+
+.btn-2{
+    background-color: #09A15C;
+}
+
+.btn-3 {
+    background-color: #FFC239;
+}
