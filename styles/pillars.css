@@ -1,0 +1,27 @@
+.pillars > .title{
+    margin-bottom: 32px;
+}
+
+.pillars-card > .description{
+    margin: 0;
+}
+
+.pillars-card-title{
+    color: #0e0e0ecc;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 25px 0 12px 0;
+}
+
+.pillars-card-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.pillars-card{
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 16px;
+}
