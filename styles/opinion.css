@@ -48,4 +48,9 @@ table td .select {
     font-weight: 700;
     line-height: 19px;
     background: #c6e4d6;
+    cursor: pointer;
+}
+
+table td .select option:last-child{
+    background-color: red;
 }
